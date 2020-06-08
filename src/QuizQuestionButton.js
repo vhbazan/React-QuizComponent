@@ -9,7 +9,7 @@ import React, { Component } from 'react'
     )
   }
 
-  handleClick(par1, par2) {
+  handleClick() {
   this.props.clickHandler(this.props.button_text);
     
   }
