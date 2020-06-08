@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 
-export default class QuizQuestion extends Component {
+class QuizQuestion extends Component {
 /*   constructor(props) {
     super(props);
   } */
@@ -20,3 +20,5 @@ export default class QuizQuestion extends Component {
     )
   }
 }
+
+export default QuizQuestion;
